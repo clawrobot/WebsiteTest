@@ -5,13 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Website</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        #kitty{
+            display:none
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to Evan's portfolio!</h1>
         <p id="message">Click the button to see a picture of a cat!.</p>
         <button onclick="toggleImage()" id="changeTextBtn">Click Me!</button>
-        <img id = "kitty" src = "123.jpg" width = "200" height = "300"/>
+        <img class = "center"id = "kitty" src = "123.jpg" width = "200" height = "300"/>
     </div>
 
     <script src="script.js"></script>
